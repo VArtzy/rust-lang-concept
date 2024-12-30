@@ -1,13 +1,6 @@
 # Rust Language Concept Wiki
 
 This repository demonstrates various features of the Rust programming language, including core concepts, advanced techniques, and idiomatic Rust practices. The project contains well-structured code and test functions covering topics such as variables, control flow, traits, generics, memory management, concurrency, and more.
-
-## Table of Contents
-- [Features Covered](#features-covered)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Code Structure](#code-structure)
-
 ## Features Covered
 The project explores a wide range of Rust concepts, including:
 
@@ -50,32 +43,6 @@ The project explores a wide range of Rust concepts, including:
 
 - **Macros**:
   - Custom macros ([Code](https://github.com/VArtzy/rust-lang-concept/blob/main/src/main.rs#L1776)).
-
-## Setup
-1. **Install Rust**: Ensure you have Rust installed. If not, download it [here](https://www.rust-lang.org/tools/install).
-2. **Clone the repository**:
-   ```bash
-   git clone https://github.com/VArtzy/rust-lang-concept.git
-   cd rust-lang-concept
-   ```
-3. **Build the project**:
-   ```bash
-   cargo build
-   ```
-4. **Run tests**:
-   ```bash
-   cargo test
-   ```
-
-## Usage
-- **Run the main application**:
-   ```bash
-   cargo run
-   ```
-- **Execute individual test modules**:
-   ```bash
-   cargo test --test module_name
-   ```
 
 ## Code Structure
 - **Main Module (`main.rs`)**: Contains the entry point and various feature demonstrations.
